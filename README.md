@@ -62,20 +62,20 @@ Insurance all is an insurance company that offers health insurance to its policy
 	
   	**Features available in the dataset:**	  
 	
-   | Feature                 | Description |
-   | ---                     | --- |
-   | Id                      | Unique ID for the customer |
-   | Gender                  | Gender of the customer |
-   | Age                     | Age of the customer |
-   | Driving_License         | 0: Customer does not have DL. 1: Customer already has DL |
-   | Region_Code             | Unique code for the region of the customer |
-   | Previously_Insured      | 0: Customer does not have auto insurance. 1: Customer already has auto insurance |
-   | Vehicle_Age             | Age of the Vehicle |
-   | Vehicle_Damage          | 1: Customer got his/her vehicle damaged in the past. 0 : Customer didn't get his/her vehicle damaged in the past |
-   | Annual_Premium          | Amount the customer paid the company for annual health insurance |
-   | Policy_Sales_Channel    | Anonymous code for the customer contact channel |
-   | Vintage                 | Number of days that the customer was associated with the company through the purchase of health insurance |
-   | Response                | 0: The customer is not interested. 1: The customer is interested |
+   	| Feature                 | Description |
+   	| ---                     | --- |
+   	| Id                      | Unique ID for the customer |
+   	| Gender                  | Gender of the customer |
+   	| Age                     | Age of the customer |
+   	| Driving_License         | 0: Customer does not have DL. 1: Customer already has DL |
+   	| Region_Code             | Unique code for the region of the customer |
+   	| Previously_Insured      | 0: Customer does not have auto insurance. 1: Customer already has auto insurance |
+   	| Vehicle_Age             | Age of the Vehicle |
+   	| Vehicle_Damage          | 1: Customer got his/her vehicle damaged in the past. 0 : Customer didn't get his/her vehicle damaged in the past |
+   	| Annual_Premium          | Amount the customer paid the company for annual health insurance |
+	| Policy_Sales_Channel    | Anonymous code for the customer contact channel |
+   	| Vintage                 | Number of days that the customer was associated with the company through the purchase of health insurance |
+   	| Response                | 0: The customer is not interested. 1: The customer is interested |
    
 		
 01. **Solution Plan:** After understanding the business problem, it was defined that a classifier with machine learning would be trained to generate the probability of each customer being interested in auto insurance and order a list of customers for the sales team to contact and make offers. For the sales team to generate the purchase propensity of future customers, we will upload the machine learning model into production and integrate it with a spreadsheet on google sheets for easier access.
