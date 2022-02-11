@@ -62,20 +62,20 @@ Insurance all is an insurance company that offers health insurance to its policy
 	
   	**Features available in the dataset:**	  
 	
-   | Feature                 | Description |
-   | ---                     | --- |
-   | Id                      | Unique ID for the customer |
-   | Gender                  | Gender of the customer |
-   | Age                     | Age of the customer |
-   | Driving_License         | 0: Customer does not have DL. 1: Customer already has DL |
-   | Region_Code             | Unique code for the region of the customer |
-   | Previously_Insured      | 0: Customer does not have auto insurance. 1: Customer already has auto insurance |
-   | Vehicle_Age             | Age of the Vehicle |
-   | Vehicle_Damage          | 1: Customer got his/her vehicle damaged in the past. 0 : Customer didn't get his/her vehicle damaged in the past |
-   | Annual_Premium          | Amount the customer paid the company for annual health insurance |
-   | Policy_Sales_Channel    | Anonymous code for the customer contact channel |
-   | Vintage                 | Number of days that the customer was associated with the company through the purchase of health insurance |
-   | Response                | 0: The customer is not interested. 1: The customer is interested |
+   	| Feature                 | Description |
+   	| ---                     | --- |
+   	| Id                      | Unique ID for the customer |
+   	| Gender                  | Gender of the customer |
+   	| Age                     | Age of the customer |
+   	| Driving_License         | 0: Customer does not have DL. 1: Customer already has DL |
+   	| Region_Code             | Unique code for the region of the customer |
+   	| Previously_Insured      | 0: Customer does not have auto insurance. 1: Customer already has auto insurance |
+   	| Vehicle_Age             | Age of the Vehicle |
+   	| Vehicle_Damage          | 1: Customer got his/her vehicle damaged in the past. 0 : Customer didn't get his/her vehicle damaged in the past |
+   	| Annual_Premium          | Amount the customer paid the company for annual health insurance |
+	| Policy_Sales_Channel    | Anonymous code for the customer contact channel |
+   	| Vintage                 | Number of days that the customer was associated with the company through the purchase of health insurance |
+   	| Response                | 0: The customer is not interested. 1: The customer is interested |
    
 		
 01. **Solution Plan:** After understanding the business problem, it was defined that a classifier with machine learning would be trained to generate the probability of each customer being interested in auto insurance and order a list of customers for the sales team to contact and make offers. For the sales team to generate the purchase propensity of future customers, we will upload the machine learning model into production and integrate it with a spreadsheet on google sheets for easier access.
@@ -139,13 +139,17 @@ Insurance all is an insurance company that offers health insurance to its policy
       As we can see in the precision@k and lift curve above, there was a small difference between the validation and test results, however, the result under the test data was 2.8x greater than the random result (without the propensity to purchase score, represented by the black line).
 		
 * **Business Performance:** 
-  
-  - **Financial Results:**
-  
-  - **business questions answered:**
+ 
+  - **Business Questions Answered:**
     1. Percentage of customers interested in vehicle insurance in 20,000 calls
-    2. Percentage of customers interested in vehicle insurance in 40,000 calls
-    3. Number of calls needed to contact 80% of those interested in vehicle insurance
+		![image](https://user-images.githubusercontent.com/85720162/153647610-564585f7-54c5-43fa-a477-a7f28ec56477.png)
+
+    3. Percentage of customers interested in vehicle insurance in 40,000 calls
+    		![image](https://user-images.githubusercontent.com/85720162/153647887-7de9c7f3-efc9-4521-8bd1-589f901eec6e.png)
+
+    5. Number of calls needed to contact 80% of those interested in vehicle insurance
+    		![image](https://user-images.githubusercontent.com/85720162/153648179-bacd2f31-a578-49f9-ad8b-cdc759773410.png)
+
 	
 
 
