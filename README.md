@@ -139,13 +139,17 @@ Insurance all is an insurance company that offers health insurance to its policy
       As we can see in the precision@k and lift curve above, there was a small difference between the validation and test results, however, the result under the test data was 2.8x greater than the random result (without the propensity to purchase score, represented by the black line).
 		
 * **Business Performance:** 
-  
-  - **Financial Results:**
-  
-  - **business questions answered:**
+ 
+  - **Business Questions Answered:**
     1. Percentage of customers interested in vehicle insurance in 20,000 calls
-    2. Percentage of customers interested in vehicle insurance in 40,000 calls
-    3. Number of calls needed to contact 80% of those interested in vehicle insurance
+		![image](https://user-images.githubusercontent.com/85720162/153647610-564585f7-54c5-43fa-a477-a7f28ec56477.png)
+
+    3. Percentage of customers interested in vehicle insurance in 40,000 calls
+    		![image](https://user-images.githubusercontent.com/85720162/153647887-7de9c7f3-efc9-4521-8bd1-589f901eec6e.png)
+
+    5. Number of calls needed to contact 80% of those interested in vehicle insurance
+    		![image](https://user-images.githubusercontent.com/85720162/153648179-bacd2f31-a578-49f9-ad8b-cdc759773410.png)
+
 	
 
 
