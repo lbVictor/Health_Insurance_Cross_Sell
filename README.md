@@ -118,7 +118,7 @@ Insurance all is an insurance company that offers health insurance to its policy
 	
 	    **LightGBM Final Result:**
       
-	    ![image](https://user-images.githubusercontent.com/85720162/153072721-58df50a6-ab99-4964-a4f7-1a036d8736de.png)
+	    <img src="https://user-images.githubusercontent.com/85720162/153072721-58df50a6-ab99-4964-a4f7-1a036d8736de.png" width="120">
 
 	
 ###	Evaluation
@@ -129,7 +129,7 @@ Insurance all is an insurance company that offers health insurance to its policy
 
     - **Precision@k:**
   
-      ![image](https://user-images.githubusercontent.com/85720162/153074144-df928a95-e1b9-46ae-b25e-91b135224695.png)
+      <img src="https://user-images.githubusercontent.com/85720162/153074144-df928a95-e1b9-46ae-b25e-91b135224695.png" width="200">
 
 
     - **Gain & Lift Curve:**
