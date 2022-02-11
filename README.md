@@ -164,16 +164,3 @@ Google Sheets Application
 <p align="center">
  	<img width="800" alt="drawing" src="https://user-images.githubusercontent.com/85720162/153077216-b2995c43-d0e0-424e-bda8-e0cb2441e17c.jpg">
 </p>
-
-<p align="center">
-To access the spreadsheet and perform the prediction click here
-</p>
-
-* **Next Steps:** For the next CRISP cycle, we can make several improvements to the project:
-
-	- 
-	- 
-	- 
-	- 
-
-* **Learns:** 
